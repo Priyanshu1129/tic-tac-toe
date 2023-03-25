@@ -23,10 +23,6 @@ const checkWin = ()=>{
     ]
     wins.forEach(e =>{
         if((boxtext[e[0]].innerText === boxtext[e[1]].innerText) && (boxtext[e[2]].innerText === boxtext[e[1]].innerText) && (boxtext[e[0]].innerText !== "") ){
-            boxtext[e[0]].style.fontSize = '9vw'
-            boxtext[e[1]].style.fontSize = '9vw'
-            boxtext[e[2]].style.fontSize = '9vw'
-            
             win.play()
             document.querySelector('.info').innerText = boxtext[e[0]].innerText + " Won"
             isgameover = true
