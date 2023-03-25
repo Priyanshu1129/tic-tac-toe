@@ -37,12 +37,13 @@ nav ul{
 
 .box{
     border: 2px solid black;
-    font-size: 8vw;
+    font-size: 6vw;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .box:hover{
     background-color: rgb(242, 234, 250);
@@ -102,14 +103,6 @@ nav ul{
     font-weight: bolder;
 }
 
-.line{
-    background-color: black;
-    height: 4px;
-    width: 0;
-    position: absolute;
-    background-color: green;
-    /* transition: width 1s ease-in-out; */
-}
 
 @media screen and (max-width: 950px)
 {
